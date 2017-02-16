@@ -35,7 +35,8 @@ require('bootstrap-switch');
 require('bootstrap-touchspin');
 require('angular-svg-base-fix');
 require('angular-ui-router');
-require('patternfly/dist/js/patternfly.js');
+require('patternfly-bootstrap-treeview');
+require('patternfly-sass/assets/javascripts/patternfly.js');
 require('manageiq-ui-components/dist/js/ui-components.js');
 require('ngprogress/build/ngprogress.min.js');
 require('ngstorage');
@@ -50,7 +51,7 @@ require('angular-patternfly/dist/angular-patternfly');
 require('./app/app.module.js');
 
 // Vendor styles, order matters
-require('patternfly/dist/css/patternfly-additions.css');
+//require('patternfly/dist/css/patternfly-additions.css');
 require('angular-patternfly/dist/styles/angular-patternfly.css');
 require('manageiq-ui-components/dist/css/ui-components.css');
 require('ngprogress/ngProgress.css');
